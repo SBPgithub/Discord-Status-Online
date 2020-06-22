@@ -15,8 +15,9 @@ const app = express();
 // Twitch Streaming Status
 client.on("ready", () => {
 console.log(`Logged in as ${client.user.tag}!`);
+console.log("Login successful")
 
-client.user.setActivity(`jews llol`, {
+client.user.setActivity(`im sleep`, {
 type: "STREAMING",
 url: "https://twitch.tv/YVNGPEDOtv6000"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
@@ -26,8 +27,7 @@ url: "https://twitch.tv/YVNGPEDOtv6000"})
 client.login(process.env.DISCORD_TOKEN)
 //Put 2 slashes infront of "client.login" to disable Twitch Streaming Status
 
-client.on('ready', () => {
-console.log("Logged in successfully!")});
+
 console.log ("Open source for the world to use.")
 console.log ("Made by YVNGPEDO6000")
 console.log ("Copyright © 2020 YVNGPEDO6000, a division Yvng Pedo, LLC.")

@@ -5,4 +5,3 @@ There are a few option to keep it up
 1. (Recomended) https://awake.glitch.me
 2. https://uptimerobot.com
 3. https://cron-job.org
-4. https://Cula.io
