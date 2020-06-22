@@ -80,6 +80,6 @@ Congrads! I bet you're excited to get started with customizing your bot
 * Head to skills/hears.js to learn how a Botkit skill works and how to customize it
 * Check out our [Discord collection](https://glitch.com/@glitch/discord) for some examples – feel free to copy the code into your own bot or remix them
 
-
+[![Run on Repl.it](https://repl.it/badge/github/YVNGPEDO6000/Discord-Status-Online)](https://repl.it/github/YVNGPEDO6000/Discord-Status-Online)
 
 # Copyright (C) 2020 Yvng Pedo, LLC.
