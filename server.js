@@ -17,7 +17,7 @@ client.on("ready", () => {
 console.log(`Logged in as ${client.user.tag}!`);
 console.log("Login successful")
 
-client.user.setActivity(`im sleep`, {
+client.user.setActivity(`TEXT HERE`, {
 type: "STREAMING",
 url: "https://twitch.tv/YVNGPEDOtv6000"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
@@ -27,11 +27,12 @@ url: "https://twitch.tv/YVNGPEDOtv6000"})
 client.login(process.env.DISCORD_TOKEN)
 //Put 2 slashes infront of "client.login" to disable Twitch Streaming Status
 
-
-console.log ("Open source for the world to use.")
-console.log ("Made by YVNGPEDO6000")
-console.log ("Copyright © 2020 YVNGPEDO6000, a division Yvng Pedo, LLC.")
-console.log ("WARNING: Not accountable for account termination by official Discord Inc. moderators for breaking ToS. Do this at your own risk.")
+client.on('ready', () => {
+  console.log('Logged in as ${client.user.tag}`);
+  console.log ("Open source for the world to use.")
+  console.log ("Made by YVNGPEDO6000")
+  console.log ("Copyright © YVNGPEDO6000, a diivision of Yvng Pedo, LLC.")
+});
 
 
 // this is the code for the guides
